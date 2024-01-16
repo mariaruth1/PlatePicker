@@ -2,9 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{D109F102-1C0A-4806-9C0F-94AC4E247401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{74D742BA-2F70-432D-8C1D-D357A97EDF3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "core\core.csproj", "{74D742BA-2F70-432D-8C1D-D357A97EDF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repository", "repository\repository.csproj", "{7AF898DB-6A12-4DB9-88F5-9CF4AEBF00FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastructure", "infrastructure\infrastructure.csproj", "{7AF898DB-6A12-4DB9-88F5-9CF4AEBF00FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "models\models.csproj", "{C9E31729-05D2-4F8B-B626-D031FEBA9A2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{7AF898DB-6A12-4DB9-88F5-9CF4AEBF00FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AF898DB-6A12-4DB9-88F5-9CF4AEBF00FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AF898DB-6A12-4DB9-88F5-9CF4AEBF00FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E31729-05D2-4F8B-B626-D031FEBA9A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E31729-05D2-4F8B-B626-D031FEBA9A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E31729-05D2-4F8B-B626-D031FEBA9A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E31729-05D2-4F8B-B626-D031FEBA9A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
